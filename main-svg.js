@@ -60,7 +60,7 @@ function scene04(){
 
 
 
-var controller = new ScrollMagic.Controller({addIndicators: true});
+var controller = new ScrollMagic.Controller();
 var scene1 = new ScrollMagic.Scene({
   triggerElement:" #arabic-morph-section",
   triggerHook: 0,
