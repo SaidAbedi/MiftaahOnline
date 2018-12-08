@@ -72,11 +72,11 @@ var scene1 = new ScrollMagic.Scene({
 .setTween(masterTimeline)
 .setClassToggle(".arc", "arc-move")
 .setPin("#arabic-morph-section")
-.addIndicators({
-  name: "#arabic-morph-section",
-  colorStart: "red",
-  colorEnd: "green"
-})
+// .addIndicators({
+//   name: "#arabic-morph-section",
+//   colorStart: "red",
+//   colorEnd: "green"
+// })
 
 .addTo(controller);
 });
