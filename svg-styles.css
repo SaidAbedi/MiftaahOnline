@@ -1,0 +1,48 @@
+body{
+  width: 100%;
+  background-color: #fff;
+}
+svg{
+  margin: 1em auto;
+  width: 90vw;
+  height: 90vh;
+}
+
+/*  Arabic Morphology Section */
+#arabic-morph-section{
+  margin: 2em auto;
+  max-width: 1800px;
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  background: #d6d6de; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, #d6d6de 0%, #f3f3f5 0%, #d6d6de 48%, #d6d6de 48%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, #d6d6de 0%,#f3f3f5 0%,#d6d6de 48%,#d6d6de 48%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, #d6d6de 0%,#f3f3f5 0%,#d6d6de 48%,#d6d6de 48%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6de', endColorstr='#d6d6de',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.dummy-section{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+
+}
+.arc{
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+}
+
+.arc-move{
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 1s linear forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
